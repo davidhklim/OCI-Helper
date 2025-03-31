@@ -27,10 +27,10 @@ Usage Instructions:
    - Copy and paste the required placeholder fields (e.g., «Short_Name») as you edit.
 
 ------------------------------------------------------------------------------------------------------------------------------------     
-   -   **«Firm»**: Full name of firm. e.g., Osler, Hoskin & Harcourt LLP
-   -   **«Short_Name»**: Short name of the firm that will be referenced for the remainder of the cover letter e.g., Osler
+   -   **«Firm»**: Full name of firm. e.g., Agee, Poe & Epps LLP
+   -   **«Short_Name»**: Short name of the firm that will be referenced for the remainder of the cover letter e.g., APE
    -   **«Salutations»**: Honourifics; e.g., Mr., Ms.
-   -   **«Contact»**: Name of the Hiring Manager
+   -   **«Contact»**: Name of the Hiring Manager e.g., Kyle McAvoy
    -   **«Title»**: Title of the Hiring manager e.g., Director, Student Programs and Legal Recruitment
    -   **«Street»**: Firm street e.g., 000 King Street West, Suite 000
    -   **«City»**: City, Province Postal Code e.g., Toronto, ON Q1Q 1Q1
