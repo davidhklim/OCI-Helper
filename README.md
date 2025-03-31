@@ -10,8 +10,7 @@ MacOS does not natively support Windows executable files (.exe). To run the EXE 
 - See [Video instructions](https://www.youtube.com/watch?v=xTsuAKkaur8)
 
 
-I also create an **OCI Tracker** that I found useful in helping me keep organized through the process (Create copy to your drive) 
-- Link here: https://docs.google.com/spreadsheets/d/1VZIOgAQZAfTfsn78PIqvQXCOFdRAdJLM0eMgSDP4w3c/edit?usp=sharing
+I also created an [**OCI Tracker**](https://docs.google.com/spreadsheets/d/1VZIOgAQZAfTfsn78PIqvQXCOFdRAdJLM0eMgSDP4w3c/edit?usp=sharing) that I found useful in helping me keep organized through the process (Create copy to your drive) 
 
 
 **OCIHelper.exe** Description:  
