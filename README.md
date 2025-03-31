@@ -1,4 +1,4 @@
-##OCI HELPER
+## OCI HELPER
 
 **Cover Letter Generator - User Guide**
 
