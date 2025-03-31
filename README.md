@@ -5,9 +5,9 @@
 Let me know if you want me to add other cities :)
 
 **Note to Mac Users**  
-The executable files (.exe) are for Windows only. To run the program on a Mac, you must download Wine and Wine Bottler (free).  
-- Link here: https://winebottler.kronenberg.org/
-- See video instructions here: https://www.youtube.com/watch?v=xTsuAKkaur8
+MacOS does not natively support Windows executable files (.exe). To run the EXE file included in this repository, please download and install [Wine](https://www.winehq.org/) and [WineBottler](https://winebottler.kronenberg.org/).
+- Once installed, you can use these tools to execute the EXE file on your macOS system.
+- See [Video instructions](https://www.youtube.com/watch?v=xTsuAKkaur8)
 
 
 I also create an **OCI Tracker** that I found useful in helping me keep organized through the process (Create copy to your drive) 
