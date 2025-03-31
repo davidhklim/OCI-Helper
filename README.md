@@ -53,3 +53,37 @@ The **FirmSearch.exe** program lets you quickly look up addresses and Student Hi
 (2) The program opens a browser tab for each selected firm (Firm_List.xlsx) for the selected city so you can verify the address from the Excel file. 
 
 (3) Next, it will ask if you wish to search for the Student Hiring Manager; if you click 'Yes', it opens additional tabs searching for each firm along with "Student Hiring Manager."
+
+------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
+
+## Downloading the Repository on macOS
+
+If you're using macOS and want to download the OCI-Helper repository using the command line, follow these steps:
+
+1. **Open Terminal:**
+   - Open the Terminal app. You can find it via Spotlight or in `/Applications/Utilities/Terminal.app`.
+
+2. **Navigate to Your Downloads Folder:**
+   - In Terminal, run:
+     ```bash
+     cd ~/Downloads
+     ```
+
+3. **Clone the Repository:**
+   - Run the following command to clone the repository into your Downloads folder:
+     ```bash
+     git clone https://github.com/davidhklim/OCI-Helper.git
+     ```
+   - This command will create a folder named `OCI-Helper` in your Downloads folder containing all the repository files.
+
+4. **Verify the Download:**
+   - To verify that the repository was cloned correctly, navigate into the folder and list its contents:
+     ```bash
+     cd OCI-Helper
+     ls
+     ```
+
+You're all set! The repository is now downloaded to your Downloads folder.
+
+
