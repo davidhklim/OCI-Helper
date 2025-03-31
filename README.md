@@ -19,7 +19,9 @@ After installation, use these tools to execute the EXE file. For step-by-step in
 
 ## Additional Resource: OCI Tracker
 
-I created an [OCI Tracker](https://docs.google.com/spreadsheets/d/1VZIOgAQZAfTfsn78PIqvQXCOFdRAdJLM0eMgSDP4w3c/edit?usp=sharing) to help keep you organized during the application process. **Make a copy to your drive** for personal use.
+I created an [OCI Tracker](https://docs.google.com/spreadsheets/d/1VZIOgAQZAfTfsn78PIqvQXCOFdRAdJLM0eMgSDP4w3c/edit?usp=sharing) to help keep you organized during the application process. 
+
+**Make a copy to your drive** for personal use.
 
 ---
 
