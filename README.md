@@ -84,6 +84,52 @@ If you're using macOS and want to download the OCI-Helper repository using the c
      ls
      ```
 
+5. **Reminder to Run the EXE File:**
+   - macOS does not natively support Windows executable files (.exe). To run the EXE file included in this repository, please download and install [Wine](https://www.winehq.org/) and [WineBottler](https://winebottler.kronenberg.org/).
+   - Once installed, you can use these tools to execute the EXE file on your macOS system.
+
+------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
+
+## Downloading the Repository on Windows
+
+If you're using a Windows PC and want to download the OCI-Helper repository using the command line, follow these steps:
+
+1. **Open Command Prompt or Git Bash:**
+   - **Command Prompt:** Press `Win + R`, type `cmd`, and press Enter.
+   - **Git Bash:** Right-click on the Desktop or search for Git Bash in the Start menu.
+
+2. **Navigate to Your Downloads Folder:**
+   - In **Command Prompt**, run:
+     ```bash
+     cd %HOMEPATH%\Downloads
+     ```
+   - In **Git Bash**, run:
+     ```bash
+     cd ~/Downloads
+     ```
+
+3. **Clone the Repository:**
+   - Run the following command to clone the repository into your Downloads folder:
+     ```bash
+     git clone https://github.com/davidhklim/OCI-Helper.git
+     ```
+   - This command will create a folder named `OCI-Helper` in your Downloads folder containing all the repository files.
+
+4. **Verify the Download:**
+   - To verify that the repository was cloned correctly, navigate into the folder and list its contents:
+     - In **Command Prompt**:
+       ```bash
+       cd OCI-Helper
+       dir
+       ```
+     - In **Git Bash**:
+       ```bash
+       cd OCI-Helper
+       ls
+       ```
+
 You're all set! The repository is now downloaded to your Downloads folder.
+
 
 
