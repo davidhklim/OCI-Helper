@@ -1,61 +1,94 @@
-## OCI HELPER
+# OCI HELPER
 
 **Cover Letter Generator - User Guide**
 
-Let me know if you want me to add other cities :)
+Welcome to OCI Helper, a tool designed to automate the creation of personalized cover letters using firm-specific data. This guide provides instructions on how to use the tool, download the repository, and run the executable files. If you have suggestions (e.g., adding other cities), please let me know!
 
-**Note to Mac Users**  
-MacOS does not natively support Windows executable files (.exe). To run the EXE file included in this repository, please download and install [Wine](https://www.winehq.org/) and [WineBottler](https://winebottler.kronenberg.org/).
-- Once installed, you can use these tools to execute the EXE file on your macOS system.
-- See [Video instructions](https://www.youtube.com/watch?v=xTsuAKkaur8)
+---
+
+## Important Note for macOS Users
+
+macOS does not natively support Windows executable files (.exe). To run the EXE file included in this repository, please download and install:
+
+- [Wine](https://www.winehq.org/)
+- [WineBottler](https://winebottler.kronenberg.org/)
+
+After installation, use these tools to execute the EXE file. For step-by-step instructions, see [Video Instructions](https://www.youtube.com/watch?v=xTsuAKkaur8).
+
+---
+
+## Additional Resource: OCI Tracker
+
+I created an [OCI Tracker](https://docs.google.com/spreadsheets/d/1VZIOgAQZAfTfsn78PIqvQXCOFdRAdJLM0eMgSDP4w3c/edit?usp=sharing) to help keep you organized during the application process. **Make a copy to your drive** for personal use.
+
+---
+
+## OCIHelper.exe Overview
+
+**Description:**
+- Automates the creation of personalized cover letters using firm-specific data.
+- Based on the official Peter A. Allard School of Law Cover Letter and Resume template (customizable to your needs).
+
+> **Important:** Ensure that your cover letter header format matches your resume header format.
 
 
-I also created an [**OCI Tracker**](https://docs.google.com/spreadsheets/d/1VZIOgAQZAfTfsn78PIqvQXCOFdRAdJLM0eMgSDP4w3c/edit?usp=sharing) that I found useful in helping me keep organized through the process (Create copy to your drive) 
+### Selecting Firms
+The `Firm_List.xlsx` file houses all the firm information that the program uses to populate the placeholder fields in your cover letter template. 
+
+The information is up to date as of **March 31, 2025**. **Quickly double-check that the information is correct** (see `FirmSearch.exe` below).
 
 
-**OCIHelper.exe** Description:  
-- This tool automates the creation of personalized cover letters using firm-specific data
-- It is based on the official Peter A. Allard School of Law Cover Letter and Resume template, but you can change the format however you like
+- The spreadsheet includes separate sheets for **Vancouver** and **Toronto**. (Let me know if you want me to add other cities!)
+- To generate cover letters for specific firms, check the boxes next to the firms you are interested in under the **'AP'** column.
+- **Note:** The `FirmSearch.exe` program refers to this sheet and will only open browser tabs for the firms that are selected.
 
-***Important Sidenote:*** Your cover letter header formate and resume header format should match.
+### File Naming Convention
+- The generated cover letter files will be named using the following convention: [Template Cover Letter Name] + " (Short_Name)"
+- **Example:**  
+If your template is named `ElleWoods_Cover Letter` and you applied to **BLG**, the resultant files will be:
+- `ElleWoods_CoverLetter (BLG).docx`
+- `ElleWoods_CoverLetter (BLG).pdf`
 
-Usage Instructions:  
-(1) Update the Template:  
-   - Edit your cover letter template as needed.  
-   - Use the official Peter A. Allard School of Law template.  
-   - Copy and paste the required placeholder fields (e.g., «Short_Name») as you edit.
+**Usage Instructions:**
+1. **Update the Template:**
+   - Open the cover letter template.
+   - Customize the template as needed while keeping the following placeholder fields intact. These fields will be automatically filled with firm-specific information from `Firm_List.xlsx`:
+     - **«Firm»**: The full name of the firm (e.g., Agee, Poe & Epps LLP)
+     - **«Short_Name»**: A shortened name for subsequent references (e.g., APE)
+     - **«Salutations»**: Appropriate honourifics (e.g., Mr., Ms.)
+     - **«Contact»**: The name of the Hiring Manager (e.g., Kyle McAvoy)
+     - **«Title»**: The Hiring Manager’s title (e.g., Director, Student Programs and Legal Recruitment)
+     - **«Street»**: The firm’s street address (e.g., 000 King Street West, Suite 000)
+     - **«City»**: The city, province, and postal code (e.g., Toronto, ON Q1Q 1Q1)
 
-------------------------------------------------------------------------------------------------------------------------------------     
-   -   **«Firm»**: Full name of firm. e.g., Agee, Poe & Epps LLP
-   -   **«Short_Name»**: Short name of the firm that will be referenced for the remainder of the cover letter e.g., APE
-   -   **«Salutations»**: Honourifics; e.g., Mr., Ms.
-   -   **«Contact»**: Name of the Hiring Manager e.g., Kyle McAvoy
-   -   **«Title»**: Title of the Hiring manager e.g., Director, Student Programs and Legal Recruitment
-   -   **«Street»**: Firm street e.g., 000 King Street West, Suite 000
-   -   **«City»**: City, Province Postal Code e.g., Toronto, ON Q1Q 1Q1
-------------------------------------------------------------------------------------------------------------------------------------
-
-(2) Run the Executable:  
-   - Double-click the executable file to launch the Cover Letter Generator.  
+2. **Run the Executable:**
+   - Double-click `OCIHelper.exe` to launch the Cover Letter Generator.
    - When prompted, select your updated Word template.
 
-(3) Generate PDFs:  
-   - The program reads firm information from the accompanying Excel file.  
-   - It generates personalized cover letters and outputs them as PDF files.  
-   - The PDFs are organized into separate folders for each group of firm information.
-------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------
-The **FirmSearch.exe** program lets you quickly look up addresses and Student Hiring Managers for the firms listed in Firm_List.xlsx. 
+3. **Generate PDFs:**
+   - The program reads firm information from the accompanying Excel file.
+   - It generates personalized cover letters and saves them as DOCX and PDF files.
+   - The DOCX and PDFs are organized into separate folders based on the firm data groups.
 
-(1) It will first prompt you to choose between Toronto and Vancouver. 
+---
 
-(2) The program opens a browser tab for each selected firm (Firm_List.xlsx) for the selected city so you can verify the address from the Excel file. 
+## FirmSearch.exe Overview
 
-(3) Next, it will ask if you wish to search for the Student Hiring Manager; if you click 'Yes', it opens additional tabs searching for each firm along with "Student Hiring Manager."
+**Description:**
+- Quickly looks up addresses and Student Hiring Managers for the firms listed in `Firm_List.xlsx`. (Kind of janky)
 
-------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------
+**Usage Instructions:**
 
+1. **City Selection:**
+   - The program prompts you to choose between Toronto and Vancouver.
+
+2. **Address Verification:**
+   - For each firm (as listed in `Firm_List.xlsx`), the program opens a browser tab for the chosen city so you can verify the firm's address.
+
+3. **Student Hiring Manager Search:**
+   - If you opt to search for the Student Hiring Manager, additional browser tabs will open with a search for each firm combined with "Student Hiring Manager."
+
+---
 ## Downloading the Repository on macOS
 
 If you're using macOS and want to download the OCI-Helper repository using the command line, follow these steps:
@@ -87,8 +120,6 @@ If you're using macOS and want to download the OCI-Helper repository using the c
    - macOS does not natively support Windows executable files (.exe). To run the EXE file included in this repository, please download and install [Wine](https://www.winehq.org/) and [WineBottler](https://winebottler.kronenberg.org/).
    - Once installed, you can use these tools to execute the EXE file on your macOS system.
 
-------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------
 
 ## Downloading the Repository on Windows
 
@@ -129,6 +160,7 @@ If you're using a Windows PC and want to download the OCI-Helper repository usin
        ```
 
 You're all set! The repository is now downloaded to your Downloads folder.
+
 
 
 
