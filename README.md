@@ -93,39 +93,55 @@ If your template is named `ElleWoods_Cover Letter` and you applied to **BLG**, t
 ---
 ## Downloading the Repository on macOS
 
-If you're using macOS and want to download the OCI-Helper repository using the command line, follow these steps:
-
 1. **Open Terminal:**
-   - Open the Terminal app. You can find it via Spotlight or in `/Applications/Utilities/Terminal.app`.
+   - Press `Cmd + Space`, type `Terminal`, and press `Enter` to open the Terminal app.
 
 2. **Navigate to Your Downloads Folder:**
-   - In Terminal, run:
+   - In Terminal, run the following command to navigate to the Downloads folder:
      ```bash
      cd ~/Downloads
      ```
 
 3. **Clone the Repository:**
-   - Run the following command to clone the repository into your Downloads folder:
+   - To clone the repository, run the following command:
      ```bash
      git clone https://github.com/davidhklim/OCI-Helper.git
      ```
-   - This command will create a folder named `OCI-Helper` in your Downloads folder containing all the repository files.
 
-4. **Verify the Download:**
-   - To verify that the repository was cloned correctly, navigate into the folder and list its contents:
+4. **Install Git LFS (Large File Storage):**
+   - If you don’t have Git LFS installed, run the following command to install it:
+     ```bash
+     brew install git-lfs
+     ```
+
+5. **Initialize Git LFS:**
+   - After installation, initialize Git LFS by running:
+     ```bash
+     git lfs install
+     ```
+
+6. **Download the Large Files:**
+   - Once the repository is cloned, navigate into the cloned directory:
      ```bash
      cd OCI-Helper
+     ```
+   - Run the following command to download the large files using Git LFS:
+     ```bash
+     git lfs pull
+     ```
+
+7. **Verify the Download:**
+   - To verify that the repository and large files were downloaded correctly, list the contents:
+     ```bash
      ls
      ```
 
-5. **Reminder to Run the EXE File:**
+8. **Reminder to Run the EXE File:**
    - macOS does not natively support Windows executable files (.exe). To run the EXE file included in this repository, please download and install [Wine](https://www.winehq.org/) and [WineBottler](https://winebottler.kronenberg.org/).
    - Once installed, you can use these tools to execute the EXE file on your macOS system.
 
 
 ## Downloading the Repository on Windows
-
-If you're using a Windows PC and want to download the OCI-Helper repository using the command line, follow these steps:
 
 1. **Open Command Prompt or Git Bash:**
    - **Command Prompt:** Press `Win + R`, type `cmd`, and press Enter.
@@ -146,20 +162,21 @@ If you're using a Windows PC and want to download the OCI-Helper repository usin
      ```bash
      git clone https://github.com/davidhklim/OCI-Helper.git
      ```
-   - This command will create a folder named `OCI-Helper` in your Downloads folder containing all the repository files.
 
-4. **Verify the Download:**
-   - To verify that the repository was cloned correctly, navigate into the folder and list its contents:
-     - In **Command Prompt**:
-       ```bash
-       cd OCI-Helper
-       dir
-       ```
-     - In **Git Bash**:
-       ```bash
-       cd OCI-Helper
-       ls
-       ```
+4. **Install Git LFS (Large File Storage):**
+   - If you don’t have Git LFS installed, download and install it from [here](https://git-lfs.github.com/).
+   - After installation, run the following command to set up Git LFS:
+     ```bash
+     git lfs install
+     ```
+
+5. **Download the Large Files:**
+   - Once the repository is cloned, navigate into the cloned directory:
+     ```bash
+     cd OCI-Helper
+     ```
+   - Run the following command to download the large files using Git LFS:
+     ```bash
 
 You're all set! The repository is now downloaded to your Downloads folder.
 
