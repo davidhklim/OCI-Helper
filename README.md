@@ -149,7 +149,7 @@ If your template is named `ElleWoods_Cover Letter` and you applied to **BLG**, t
 
 
 
-## Downloading the Repository on Windows
+## Downloading the Repository on Windows with Large Files
 
 1. **Open Command Prompt or Git Bash:**
    - **Command Prompt:** Press `Win + R`, type `cmd`, and press Enter.
@@ -185,9 +185,19 @@ If your template is named `ElleWoods_Cover Letter` and you applied to **BLG**, t
      ```
    - Run the following command to download the large files using Git LFS:
      ```bash
+     git lfs pull
+     ```
 
-You're all set! The repository is now downloaded to your Downloads folder.
-
+6. **Verify the Download:**
+   - To verify that the repository and large files were downloaded correctly, list the contents:
+     - In **Command Prompt**:
+       ```bash
+       dir
+       ```
+     - In **Git Bash**:
+       ```bash
+       ls
+       ```
 
 
 
