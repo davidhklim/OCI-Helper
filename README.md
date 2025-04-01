@@ -74,21 +74,21 @@ If your template is named `ElleWoods_Cover Letter` and you applied to **BLG**, t
 
 ---
 
-## FirmSearch.exe Overview
+>## FirmSearch.exe Overview
 
-**Description:**
-- Quickly looks up addresses and Student Hiring Managers for the firms listed in `Firm_List.xlsx`. (Kind of janky)
+>**Description:**
+>- Quickly looks up addresses and Student Hiring Managers for the firms listed in `Firm_List.xlsx`. (Kind of janky)
 
-**Usage Instructions:**
+>**Usage Instructions:**
 
-1. **City Selection:**
-   - The program prompts you to choose between Toronto and Vancouver.
+>1. **City Selection:**
+>   - The program prompts you to choose between Toronto and Vancouver.
 
-2. **Address Verification:**
-   - For each firm (as listed in `Firm_List.xlsx`), the program opens a browser tab for the chosen city so you can verify the firm's address.
+>2. **Address Verification:**
+>   - For each firm (as listed in `Firm_List.xlsx`), the program opens a browser tab for the chosen city so you can verify the firm's address.
 
-3. **Student Hiring Manager Search:**
-   - If you opt to search for the Student Hiring Manager, additional browser tabs will open with a search for each firm combined with "Student Hiring Manager."
+>3. **Student Hiring Manager Search:**
+>   - If you opt to search for the Student Hiring Manager, additional browser tabs will open with a search for each firm combined with "Student Hiring Manager."
 
 ---
 # Downloading the Repository:
