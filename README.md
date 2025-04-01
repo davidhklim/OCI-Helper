@@ -91,7 +91,11 @@ If your template is named `ElleWoods_Cover Letter` and you applied to **BLG**, t
    - If you opt to search for the Student Hiring Manager, additional browser tabs will open with a search for each firm combined with "Student Hiring Manager."
 
 ---
-## Downloading the Repository on macOS with Large Files
+## Downloading the Repository:
+
+[Download](https://github.com/davidhklim/OCI-Helper/releases/tag/FirstRelease)
+
+# on macOS with Large Files
 
 1. **Open Terminal:**
    - Press `Cmd + Space`, type `Terminal`, and press `Enter` to open the Terminal app.
@@ -149,7 +153,7 @@ If your template is named `ElleWoods_Cover Letter` and you applied to **BLG**, t
 
 
 
-## Downloading the Repository on Windows with Large Files
+# Windows with Large Files
 
 1. **Open Command Prompt or Git Bash:**
    - **Command Prompt:** Press `Win + R`, type `cmd`, and press Enter.
