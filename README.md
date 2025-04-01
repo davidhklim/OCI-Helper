@@ -188,48 +188,6 @@ If your template is named `ElleWoods_Cover Letter` and you applied to **BLG**, t
      git lfs pull
      ```
 
-   **Troubleshooting Steps if Git LFS Pull Fails:**
-
-   If the files are still showing as 1KB and not downloading properly, try the following steps:
-
-   1. **Check Git LFS Status:**
-      - Run the following command to see the status of LFS files in the repository:
-        ```bash
-        git lfs status
-        ```
-      - This will show whether Git LFS has tracked the files and if there are any issues with downloading them.
-
-   2. **Fetch LFS Objects Manually:**
-      - You can try fetching the large files manually by running the following command:
-        ```bash
-        git lfs fetch --all
-        ```
-      - After this, run:
-        ```bash
-        git lfs checkout
-        ```
-      - This will checkout the large files and make sure they are properly downloaded.
-
-   3. **Re-clone the Repository (If Issues Persist):**
-      - If the issue still persists, try removing the repository and cloning it again. First, delete the folder:
-        ```bash
-        rm -rf OCI-Helper
-        ```
-      - Then, clone the repository again:
-        ```bash
-        git clone https://github.com/davidhklim/OCI-Helper.git
-        ```
-
-6. **Verify the Download:**
-   - To verify that the repository and large files were downloaded correctly, list the contents:
-     - In **Command Prompt**:
-       ```bash
-       dir
-       ```
-     - In **Git Bash**:
-       ```bash
-       ls
-       ```
 
 
 
