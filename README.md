@@ -91,36 +91,43 @@ If your template is named `ElleWoods_Cover Letter` and you applied to **BLG**, t
    - If you opt to search for the Student Hiring Manager, additional browser tabs will open with a search for each firm combined with "Student Hiring Manager."
 
 ---
-## Downloading the Repository on macOS
+## Downloading the Repository on macOS with Large Files
 
 1. **Open Terminal:**
    - Press `Cmd + Space`, type `Terminal`, and press `Enter` to open the Terminal app.
 
-2. **Navigate to Your Downloads Folder:**
+2. **Install Homebrew (if not already installed):**
+   - If you don’t have Homebrew installed, run the following command to install it:
+     ```bash
+     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+     ```
+   - Follow the on-screen instructions to complete the installation.
+
+3. **Navigate to Your Downloads Folder:**
    - In Terminal, run the following command to navigate to the Downloads folder:
      ```bash
      cd ~/Downloads
      ```
 
-3. **Clone the Repository:**
+4. **Clone the Repository:**
    - To clone the repository, run the following command:
      ```bash
      git clone https://github.com/davidhklim/OCI-Helper.git
      ```
 
-4. **Install Git LFS (Large File Storage):**
-   - If you don’t have Git LFS installed, run the following command to install it:
+5. **Install Git LFS (Large File Storage):**
+   - After installing Homebrew, run the following command to install Git LFS:
      ```bash
      brew install git-lfs
      ```
 
-5. **Initialize Git LFS:**
+6. **Initialize Git LFS:**
    - After installation, initialize Git LFS by running:
      ```bash
      git lfs install
      ```
 
-6. **Download the Large Files:**
+7. **Download the Large Files:**
    - Once the repository is cloned, navigate into the cloned directory:
      ```bash
      cd OCI-Helper
@@ -130,15 +137,16 @@ If your template is named `ElleWoods_Cover Letter` and you applied to **BLG**, t
      git lfs pull
      ```
 
-7. **Verify the Download:**
+8. **Verify the Download:**
    - To verify that the repository and large files were downloaded correctly, list the contents:
      ```bash
      ls
      ```
 
-8. **Reminder to Run the EXE File:**
+9. **Reminder to Run the EXE File:**
    - macOS does not natively support Windows executable files (.exe). To run the EXE file included in this repository, please download and install [Wine](https://www.winehq.org/) and [WineBottler](https://winebottler.kronenberg.org/).
    - Once installed, you can use these tools to execute the EXE file on your macOS system.
+
 
 
 ## Downloading the Repository on Windows
