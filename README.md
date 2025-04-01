@@ -231,9 +231,6 @@ If your template is named `ElleWoods_Cover Letter` and you applied to **BLG**, t
        ls
        ```
 
-7. **Reminder to Run the EXE File:**
-   - Windows users can directly run executable files (`.exe`) without additional tools. If the repository includes an EXE file, simply double-click to run it.
-   - If there are any issues with running the EXE, please refer to the instructions for macOS to use [Wine](https://www.winehq.org/) or other solutions.
 
 
 
