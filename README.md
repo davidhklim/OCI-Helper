@@ -11,6 +11,7 @@ Welcome to OCI Helper, a tool designed to automate the creation of personalized 
 macOS does not natively support Windows executable files (.exe). To run the EXE file included in this repository, please download and install:
 
 - [Wine and Wine Bottler](https://winebottler.kronenberg.org/)
+- OR 【here】（https://winebottler.macupdate.com/）
 
 After installation, use these tools to execute the EXE file. For step-by-step instructions, see [Video Instructions]([https://www.youtube.com/watch?v=xTsuAKkaur8](https://www.youtube.com/watch?v=TMuQV09SigE)).
 
