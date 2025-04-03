@@ -94,10 +94,10 @@ If your template is named `ElleWoods_Cover Letter` and you applied to **BLG**, t
 # Downloading the Repository:
 <br>
 
-### Can download files individually here: [Link](https://github.com/davidhklim/OCI-Helper/releases/tag/FirstRelease)**
+### **Can download files individually here: [Link](https://github.com/davidhklim/OCI-Helper/releases/tag/FirstRelease)**
 
 <br>
-... or for extracurricular...
+... or for extracredit...
 <br>
 
 ### on macOS with Large Files
