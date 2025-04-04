@@ -210,6 +210,18 @@ To resolve this, you can manually terminate the process using the instructions b
 
 ### Windows
 
+#### Option 1: Use Task Manager
+
+1. Press `Ctrl + Shift + Esc` to open Task Manager.
+
+2. Click on the **"Processes"** tab.
+
+3. Look for `OCIHelper.exe` or `FirmSearch.exe` in the list.
+
+4. Right-click the process and select **"End Task"**.
+
+#### Option 2: Use Command Prompt
+
 1. Open the Terminal:
    - Press `Win + R`, type `cmd`, then press Enter.
 
