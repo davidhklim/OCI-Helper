@@ -198,6 +198,64 @@ If your template is named `ElleWoods_Cover Letter` and you applied to **BLG**, t
      ```
 
 
+## Troubleshooting
+
+### "Firm_List.xlsx is currently in use" Error
+
+If you receive an error stating that `Firm_List.xlsx` is locked or currently in use, it likely means that `OCIHelper.exe` or `FirmSearch.exe` is still running in the background.
+
+To resolve this, you can manually terminate the process using the instructions below.
+
+---
+
+### Windows
+
+1. Open the Terminal:
+   - Press `Win + R`, type `cmd`, then press Enter.
+
+2. Find the process:
+   - In the terminal window, run:
+     ```
+     tasklist
+     ```
+   - Look for `OCIHelper.exe` or `FirmSearch.exe` in the list.
+
+3. End the process:
+   - Run the following command to force-stop the process:
+     ```
+     taskkill /f /im OCIHelper.exe
+     taskkill /f /im FirmSearch.exe
+     ```
+
+---
+
+### macOS
+
+1. Open Terminal:
+   - Press `Cmd + Space`, type `Terminal`, and press Enter.
+
+2. Find the process:
+   - Run the following command to see if the Wine processes are running:
+     ```
+     ps aux | grep wine
+     ```
+
+3. End the process:
+   - Find the PID (process ID) of the Wine process running `OCIHelper.exe` or `FirmSearch.exe`.
+   - Then run:
+     ```
+     kill -9 [PID]
+     ```
+   - Replace `[PID]` with the actual number from the previous command.
+
+   - Alternatively, to kill all Wine processes:
+     ```
+     killall wine
+     ```
+
+---
+
+After ending the process, try updating or reopening `Firm_List.xlsx` again.
 
 
 
